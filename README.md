@@ -5,6 +5,23 @@
 An SDN-based host discovery service built with **POX** and **Mininet** that automatically detects hosts via OpenFlow `packet_in` events, maintains a live host database, and demonstrates full controller–switch interaction over OpenFlow 1.0.
 
 
+## 📋 Table of Contents
+
+- [Problem Statement](#-problem-statement)
+- [Architecture & Design](#-architecture--design)
+- [Project Structure](#-project-structure)
+- [Environment & Prerequisites](#-environment--prerequisites)
+- [Setup & Installation](#-setup--installation)
+- [Execution Steps](#-execution-steps)
+- [Test Scenarios](#-test-scenarios)
+- [Expected Output](#-expected-output)
+- [Performance Results](#-performance-results)
+- [Flow Table Verification](#-flow-table-verification)
+- [Design Decisions & Limitations](#-design-decisions--limitations)
+- [References](#-references)
+
+
+
 ## 🎯 Problem Statement
 
 In a Software Defined Network, the controller must maintain a real-time, accurate view of every host in the network — without any pre-configuration of host identities. This project implements a **Host Discovery Service** that:
